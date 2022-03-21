@@ -90,7 +90,7 @@ async def inlineX2(bot, update, searche):
                                              f"**Leechers:** `{torrentList[i]['Leecher']}`\n"
                                              f"**Size:** `{torrentList[i]['Size']}`\n"
                                              f"**Upload Date:** `{torrentList[i]['Date']}`\n\n"
-                                             f"**Magnet:** \n`{torrentList[i]['Magnet']}`\n\nPowered By @Space_x_bots",
+                                             f"**Magnet:** \n`{torrentList[i]['Magnet']}`\n\nPowered By @ITSOKTV",
                                 parse_mode="Markdown"
                             ),
                             reply_markup=InlineKeyboardMarkup(
