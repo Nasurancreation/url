@@ -139,7 +139,8 @@ async def inlineX3(bot, update, searche):
                                          f"__Uploaded by {torrentList[i]['UploadedBy']}__\n"
                                          f"__Uploaded {torrentList[i]['DateUploaded']}__\n"
                                          f"__Last Checked {torrentList[i]['LastChecked']}__\n\n"
-                                         f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\nPowered By @Space_x_bots",
+                                         f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\nPowered By @ITSOKTV
+",
                             parse_mode="Markdown"
                         ),
                         reply_markup=InlineKeyboardMarkup(
